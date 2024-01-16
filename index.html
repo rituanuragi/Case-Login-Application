@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Case Login Application</title>
+</head>
+<body>
+    <h2>Case Login Application</h2>
+    <form id="loanApplicationForm">
+        <div class="column">
+            <div class="form-group">
+                <label for="dateOfLogin">Date of Login</label>
+                <input type="date" id="dateOfLogin" name="dateOfLogin">
+            </div>
+            <div class="form-group">
+                <label for="employeeId">Employee Id of case owner</label>
+                <select id="employeeId" name="employeeId">
+                    <option value="emp1">F2-369-001</option>
+                    <option value="emp2">F2-369-002</option>
+                    <!-- Add more options -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="employeeName">Employee Name</label>
+                <select id="employeeName" name="employeeName">
+                    <option value="empName1">Harpreet Singh</option>
+                    <option value="empName2">Priya </option>
+                    <!-- Add more options -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="managerName">Manager Name</label>
+                <select id="managerName" name="managerName">
+                    <option value="manager1">Manager 1</option>
+                    <option value="manager2">Manager 2</option>
+                    <!-- Add more options -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="employmentType">Employment Type</label>
+                <select id="employmentType" name="employmentType">
+                    <option value="channelPartner">Channel Partner</option>
+                    <option value="salaried">Salaried</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="branchName">Branch Name</label>
+                <select id="branchName" name="branchName">
+                    <option value="f2fintech">F2Fintech</option>
+                    <option value="noida">Noida</option>
+                    <option value="bareilly">Bareilly</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="form-group">
+                <label for="customerName">Customer Name</label>
+                <input type="text" id="customerName" name="customerName">
+            </div>
+            <div class="form-group">
+                <label for="customerContact">Customer Contact Number</label>
+                <input type="text" id="customerContact" name="customerContact">
+            </div>
+            <div class="form-group">
+                <label for="customerMail">Customer Mail Id</label>
+                <input type="mail" id="customerMail" name="customerMail">
+            </div>
+            <div class="form-group">
+                <label for="customerPan">Customer Pan Card</label>
+                <input type="text" id="customerPan" name="customerPan">
+            </div>
+            <div class="form-group">
+                <label for="customerDOB">Customer Date of Birth</label>
+                <input type="date" id="customerDOB" name="customerDOB">
+            </div>
+            <div class="form-group">
+                <label for="customerAddress">Customer Permanent Address</label>
+                <input type="text" id="customerAddress" name="customerAddress">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="form-group">
+                <label for="officeAddress">Office Address</label>
+                <input type="text" id="officeAddress" name="officeAddress">
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <select id="state" name="state">
+                    <option value="state1">State 1</option>
+                    <option value="state2">State 2</option>
+                    <!-- Add more options -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <select id="city" name="city">
+                    <option value="city1">City 1</option>
+                    <option value="city2">City 2</option>
+                    <!-- Add more options -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="occupation">Customer's Occupation</label>
+                <select id="occupation" name="occupation">
+                    <option value="salaried">Salaried</option>
+                    <option value="businessman">Businessman</option>
+                    <option value="professional">Professional</option>
+                    <option value="freelancer">Freelancer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="loanType">Require Loan Type</label>
+                <select id="loanType" name="loanType">
+                    <option value="professionalOD">Professional OD</option>
+                    <!-- Add more options -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="requiredLoanAmount">Required Loan Amount</label>
+                <input type="text" id="requiredLoanAmount" name="requiredLoanAmount">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="form-group">
+                <label for="uploadKycDocuments">Upload KYC Documents</label>
+                <input type="file" id="uploadKycDocuments" name="uploadKycDocuments" onclick="">
+            </div>
+            <div class="form-group">
+                <label for="latestCibilScore">Latest CIBIL Score</label>
+                <input type="text" id="latestCibilScore" name="latestCibilScore">
+            </div>
+            <div class="form-group">
+                <label for="bankingPassword">Banking Password</label>
+                <input type="password" id="bankingPassword" name="bankingPassword">
+            </div>
+            <div class="form-group">
+                <label for="pendingDocuments">Pending Documents</label>
+                <input type="text" id="pendingDocuments" name="pendingDocuments">
+            </div>
+            <div class="form-group">
+                <label for="lender">To be logged in from lender</label>
+                <select id="lender" name="lender">
+                    <option value="cholamandalam">Cholamandalam</option>
+                    <option value="cholamandalam">Bajaj Finance</option>
+                    <option value="cholamandalam">Tata Capital</option>
+                    <option value="cholamandalam">HDFC</option>
+                    <option value="cholamandalam">Axis Bank</option>
+                    <option value="cholamandalam">ICICI Bank</option>
+                    <option value="cholamandalam">Kotak Mahindra Bank</option>
+                    <option value="cholamandalam">Lending Kart</option>
+                    <option value="cholamandalam">L & T  FINANCE</option>
+                     <option value="cholamandalam">Paysense</option>
+                     <option value="cholamandalam">Upwards</option>
+                     <option value="cholamandalam">Aditya Birla</option>
+                     <option value="cholamandalam">Growth Source</option>
+                     <option value="cholamandalam">Hero FinCorp</option>
+                     <option value="cholamandalam">Clix Capital</option>
+                     <option value="cholamandalam">Ashv</option>
+                     <option value="cholamandalam">Federal Bank</option>
+                     <option value="cholamandalam">FULLERTON</option>
+                     <option value="cholamandalam">Stancy bank</option>
+                     <option value="cholamandalam">Yes bank</option>
+                     <option value="cholamandalam">Indusland</option>
+                     <option value="cholamandalam">ICICI Education Loan</option>
+                     <option value="cholamandalam">Avanse</option>
+                     <option value="cholamandalam">HDFC Credila</option>
+                     <option value="cholamandalam">Incred</option>
+                     
+                     
+               
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="remarks">Remarks</label>
+                <textarea id="remarks" name="remarks"></textarea>
+            </div>
+        </div>
+    </form>
+    <!-- <div class='btn-box'> -->
+        <button class='btn' type="submit">Submit</button>
+    <!-- </div> -->
+</body>
+</html>
